@@ -6,7 +6,7 @@
   background-color:$header-desc-background-color;
   background-size: cover;
   height : 500px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: center;
   color: $header-desc-text-color;
 }
@@ -18,6 +18,15 @@
 }
 // Post listing
 .posts {
+  .post-title{
+  display: inline-block;
+  width: 100%;
+  background-color:$header-desc-background-color;
+  background-size: cover;
+  font-size: 2em;
+  text-align: center;
+  color: $header-desc-text-color;
+  }
   .post-teaser {
     @extend %padding-regular;
     width: 100%;
