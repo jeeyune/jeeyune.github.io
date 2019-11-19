@@ -21,11 +21,12 @@
   .post-title{
   display: inline-block;
   width: 100%;
-  background-color:$header-desc-background-color;
+  background-color: #ffffff;
   background-size: cover;
   font-size: 2em;
   text-align: center;
-  color: $header-desc-text-color;
+  color: black;
+  padding-top: 10px;
   }
   .post-teaser {
     @extend %padding-regular;
@@ -42,6 +43,25 @@
     margin-top: 1em;
   }
 }
+
+.category-title {
+  clear: left;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.post-list {
+  @extend %padding-regular;
+  clear: left;
+  padding-top: $padding-small;
+  list-style: none;
+  li{
+    a{
+      font-weight: bold;
+    }
+  }
+}
+
 // Pagination
 .pagination .button {
   margin: 0 1.5em;
