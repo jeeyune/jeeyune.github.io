@@ -33,6 +33,6 @@ feature-img: "assets/img/sample_feature_img_2.png"
   <p><h2><b> What I like 👍 </b></h2></p>
 
   * Baking
-  * Listening to Sound Cloud Music
+  * Watching movies alone
   * Collecting Cups
   * Taking pictures for people I love
