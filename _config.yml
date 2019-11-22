@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: ""
+baseurl: 
 url: "https://jeeyune.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -18,7 +18,7 @@ theme_settings:
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
   # Icons
-  rss: false
+  rss: true
   email_address: jeeyune2@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
@@ -64,11 +64,18 @@ theme_settings:
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
-  post_navigation: false
+  post_navigation: true
+
+encoding: 'utf-8'
+#Configure the plugin here
+category_path: "category" # <- default value
+category_layout: "category.html" # <- default value
 
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
+
+animation: true
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -76,7 +83,14 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-category-pages
+gem:
+  -jekyll-sitemap
+  -jekyll-feed
+  -wdm
+theme: jekyll-theme-type
 exclude:
   - Gemfile
   - Gemfile.lock
