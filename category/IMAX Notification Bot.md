@@ -1,5 +1,5 @@
 ---
 layout: category
-title: IMAX Notification Bot
+title: Projects/IMAX_Notification_Bot
 permalink: '/Projects/IMAX_Notification_Bot'
 ---
