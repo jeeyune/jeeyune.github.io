@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://jeeyune.github.io/sitemap.xml
