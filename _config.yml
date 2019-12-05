@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl:
-url: "https://jeeyune.github.io/"
+url: "https://jeeyune.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
