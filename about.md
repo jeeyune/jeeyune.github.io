@@ -20,6 +20,7 @@ feature-img: "assets/img/sample_feature_img_2.png"
   ![mysql.png](/assets/img/mysql.png){: width="100" height="100"} &nbsp;&nbsp;&nbsp;&nbsp;
   ![php.png](/assets/img/php.png){: width="100" height="100"} &nbsp;&nbsp;&nbsp;&nbsp;
   ![JavaScript.png](/assets/img/JavaScript.png){: width="100" height="100"} &nbsp;&nbsp;&nbsp;&nbsp;
+  ![c.png](/assets/img/c.png){: width="200" height="120"} &nbsp;&nbsp;&nbsp;&nbsp;
 
 <br>
 
