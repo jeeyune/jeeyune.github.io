@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Python/Crawling
-permalink: '/Python/Crawling'
+title: Programming/C
+permalink: '/Programming/C'
 ---
 Another sample category page.
