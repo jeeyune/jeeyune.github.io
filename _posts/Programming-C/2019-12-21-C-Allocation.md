@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "[C언어 기초] C언어 메모리 구조"
+title: "[C언어 기초] C언어 동적 할당"
 comments: true
 categories: [Programming/C]
 tags: [C, Memory, Data Structures]
 ---
 
-지난 포스팅에서 얘기했듯이, 이번 포스팅은 C언어의 메모리 구조에 대해서 써보려고 합니다.   
+이번 포스팅은 C언어의 '동적 할당'에 대해서 써보려고 합니다.   
 <br>
 C언어를 제대로 이해하고 효율적으로 사용하기 위해서는 메모리 구조를 잘 알고 있어야해요. 다른 언어도 마찬가지라고 생각합니다.
 <br>
