@@ -2,8 +2,8 @@
 layout: post
 title: Python 셀레니움을 이용한 간단한 페이스북 자동 로그인 프로그램 만들기
 comments: true
-categories: [Projects/Facebook_Auto_Login]
-tags: [Python, Algorithm, Crawling, Selenium]
+categories: [Projects/Automation]
+tags: [Python, Crawling, Selenium]
 ---
 
 안녕하세요 오늘은 파이썬 셀레니움을 이용해 간단한 자동화 프로그램을 만들어 보려고 합니다!
