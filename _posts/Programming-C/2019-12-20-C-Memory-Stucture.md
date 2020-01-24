@@ -17,7 +17,7 @@ C언어를 제대로 이해하고 효율적으로 사용하기 위해서는 메�
 <br>
 C언어의 메모리 구조는 크게 4가지 영역으로 나눌 수 있습니다.
 <br><br>
-![cmemory.PNG](/assets/img/cmemory.PNG)
+![cmemory.png](/assets/img/cmemory.png)
 <br>
 [이미지 출처](http://tcpschool.com/c/c_memory_structure)
 <br>
