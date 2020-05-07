@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 프로그래머스 Level 1 문자열 내 P와 Y의 개수 (Python)
+title: 프로그래머스 Level 1 문자열 내 P와 Y의 개수 (Python, JavaScript)
 comments: true
 categories: [Algorithm/Programmers]
-tags: [Python, Algorithm, Coding]
+tags: [Python, JavaScript, Algorithm, Coding]
 ---
 
 
@@ -11,9 +11,9 @@ tags: [Python, Algorithm, Coding]
 <br>
 <br>
 
-<u>코드는 Python3 로 작성되었습니다.</u>
 
-<br>
+
+[Python]
 <br>
 
 ```python
@@ -30,9 +30,34 @@ def solution(s):
         answer = False
         return answer
 ```
+<br>
+[JavaScript]
+<br>
 
-<br><br>
+```JavaScript
+function solution(s){
+    return (s.match(/p/ig) || []).length === (s.match(/y/ig) || []).length
+}
+```
+<br>
 
-레벨 1인만큼 정말 쉬운 것 같아요. 얼른 더 높은 레벨도 쉬운 날이 올 수 있도록 더 많이 풀어보고 노력해야겠어요! :)
-<br><br>
-감사합니다!
+# 다른 사람의 풀이
+
+[Python]
+
+```Python
+def solution(s):
+    return s.lower().count('p') == s.lower().count('y')
+```
+
+<br>
+
+[JavaScript]
+
+```JavaScript
+function numPY(s){
+  return s.toUpperCase().split("P").length === s.toUpperCase().split("Y").length;
+}
+```
+
+<br>
