@@ -13,13 +13,13 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-  header_text_feature_image: "assets/img/samplegates.jpg"
+  header_text_feature_image: "assets/img/background3.jpg"
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
   # Icons
   rss: true
-  email_address: jeeyune2@gmail.com # Full email address, e.g. "sam@example.com"
+  email_address: hirewldbs@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
